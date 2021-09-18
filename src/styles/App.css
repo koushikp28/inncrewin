@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #daad86;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container-fluid {
+  height: 100vh;
+  padding: 0px !important;
+}
+
+.employeeDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.addEmployee {
+  width: 10rem;
+  margin: 10px;
+  margin-left: auto;
+}
+
+.employeeList {
+  display: flex;
+  justify-content: left;
+  flex-flow: row wrap;
+}
+
+.employee {
+  flex: 0 0 30%;
+  height: 15rem;
+  border: 1px solid #808080;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #fbeec1;
+  color: #659dbd;
+}
+
+.cancelButton {
+  margin-left: auto;
+}
+
+.employeePicture {
+  border-radius: 50%;
+}
+
+.margin-t-10px {
+  margin-top: 10px;
+}
+
+.home{
+  background-color: grey;
+  height: inherit;
+}
+
+.employeeDetailsBtn {
+  position: absolute;
+  right: 1rem;
+  bottom: 20rem;
+  font-size: 2rem !important;
+}
+
+.employeePortal {
+  color: #fbeec1;
+  font-size: 8rem;
+}
